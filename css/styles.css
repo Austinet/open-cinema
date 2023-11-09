@@ -261,12 +261,12 @@ header nav {
 }
 
 .book-time__schedule .book-time-btn {
-    width: 6.2875rem;
+    width: 6.3875rem;
     height: 2.125rem;
     flex-shrink: 0;
     border: 1px solid var(--black-opacity-80);
     background: rgba(217, 217, 217, 0.00);
-    padding: 0.38rem 1.54rem;
+    padding: 0.38rem 1.5rem;
     color: var(--black-opacity-80);
     font-size: 1rem;
     font-weight: 400;
