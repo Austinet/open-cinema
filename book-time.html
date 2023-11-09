@@ -10,44 +10,52 @@
     <header>
         <nav>
             <div class="logo-container">
-                <img src="assets/images/logo.svg" alt="Open Cinema logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="Open Cinema logo">
+                </a>
             </div>
         </nav>
     </header>
     <main>
-        <section>
+        <!-- Book time section -->
+        <section id="book-time">
             <div>
-                <img src="assets/images/Shiny Happy Sitting.svg" alt="someone sitting">
-                <h1>Pick a time</h1>
+                <div class="book-time__header">
+                    <img src="assets/images/Shiny Happy Sitting.svg" alt="someone sitting">
+                    <h1>Pick a time</h1>
+                </div>
+               <div class="book-time__schedule">
                 <ul>
-                    <li>
-                        <p>Fully Booked</p>
-                        <p>10am - 12pm</p>
-                        <button>Booked</button>
+                    <li class="booked">
+                        <p class="book-time-tag">Fully Booked</p>
+                        <p class="book-time-frame">10am - 12pm</p>
+                        <button class="book-time-btn">Booked</button>
                     </li>
-                    <li>
-                        <p>Available</p>
-                        <p>1pm - 3pm</p>
-                        <button>Book it</button>
+                    <li class="available">
+                        <p class="book-time-tag">Available</p>
+                        <p class="book-time-frame">1pm - 3pm</p>
+                        <button class="book-time-btn">Book it</button>
                     </li>
-                    <li>
-                        <p>Available</p>
-                        <p>4pm - 6pm</p>
-                        <button>Book it</button>
+                    <li class="available">
+                        <p class="book-time-tag">Available</p>
+                        <p class="book-time-frame">4pm - 6pm</p>
+                        <button class="book-time-btn">Book it</button>
                     </li>
-                    <li>
-                        <p>Fully Booked</p>
-                        <p>7pm - 9pm</p>
-                        <button>Booked</button>
+                    <li class="booked">
+                        <p class="book-time-tag">Fully Booked</p>
+                        <p class="book-time-frame">7pm - 9pm</p>
+                        <button class="book-time-btn">Booked</button>
                     </li>
                 </ul>
+               </div>
+               
             </div>
-            <div>
-                <button>
+            <div class="buttons-container">
+                <a href="book-day.html" class="back-btn">Back</a>
+                <a href="movie-name.html" class="black-cta-button">
                     <span>Continue</span>
                     <img src="assets/icons/right-arrow.svg" alt="right arrow">
-                </button>
-                <a href="">Back</a>
+                </a>
             </div>
         </section>
     </main>

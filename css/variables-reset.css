@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&display=swap');
 
 :root {
-    --ash-color: rgba(243, 243, 243, 0.95);
-    --black: #121212;
-    --code-nomads-green: #0FFF50;
-    --gray-text: #848484;
-    --gray-30-percent: rgba(132, 132, 132, 0.30);
-    --shade-black:#080D1F;
+    --black: #000;
+    --black-opacity-80: rgba(0, 0, 0, 0.80);
+    --secondary-green: #1CDA2F;
     --white: #fff;
 }
 

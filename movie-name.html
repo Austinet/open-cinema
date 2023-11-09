@@ -10,13 +10,16 @@
     <header>
         <nav>
             <div class="logo-container">
-                <img src="assets/images/logo.svg" alt="Open Cinema logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="Open Cinema logo">
+                </a>
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <div>
+        <!-- Movie name section -->
+        <section id="movie-name">
+            <div class="movie-name-container">
                 <h1>
                     What movie do you <span>want</span>
                 </h1>
@@ -24,15 +27,14 @@
                     Make sure you write the name of the movie and the year, if we don’t have it we’ll send a message. 
                     <span>We even show old movies</span>
                 </p>
-
                 <input type="search" name="movieName" placeholder="E.g Avengers Endgame 2022">
             </div>
-            <div>
-                <button>
+            <div class="buttons-container">
+                <a href="book-time.html" class="back-btn">Back</a>
+                <a href="checkout.html" class="black-cta-button">
                     <span>Continue</span>
                     <img src="assets/icons/right-arrow.svg" alt="right arrow">
-                </button>
-                <a href="">Back</a>
+                </a>
             </div>
         </section>
     </main>
