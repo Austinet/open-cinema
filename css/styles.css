@@ -145,6 +145,7 @@ header nav {
     font-weight: 400;
     line-height: normal;
     outline: none;
+    border-radius: 0;
 }
 
 
@@ -325,6 +326,7 @@ header nav {
     width: 19.375rem;
     border: none;
     border-bottom: 0.0625rem solid var(--black);
+    border-radius: 0;
     flex-shrink: 0;
     color: var(--black-opacity-80);
     font-size: 1.25rem;
