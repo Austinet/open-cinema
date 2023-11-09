@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Cinema - Onboarding</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,700,500,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -16,13 +17,18 @@
     </header>
     <main>
         <!-- Hero section -->
-        <section id="hero"> 
+        <section id="hero" class="mobile-view"> 
             <div>
                 <h1>
                     Watch any movie <span>Alone.</span>
                 </h1>
                 <h2>
-                    In a cinema. with <span>family.</span>
+                    In a cinema. with
+                    <span class="animate-text">
+                        <span class="slide">your girl</span>
+                        <span class="slide">yourself</span>
+                        <span class="slide">family.</span>
+                    </span>
                 </h2>
                 <div class="hero-image-container">
                     <img src="assets/images/Amigos Avatar.svg" alt="Amigos">
@@ -37,6 +43,22 @@
                 </div>
             </div>
         </section>
+        <section id="desktop-view">
+            <div class="desktop-view-container">
+                <h2>Not available for desktop 
+                    <span class="animate-text-desktop">
+                        <span class="slide">Bro.</span>
+                        <span class="slide">Sis.</span>
+                   </span>
+                </h2>
+                <img src="assets/images/two-amigos.svg" alt="A guy and a lady">
+                <p>Check us out on your mobile phone</p>
+                <a href="https://google.com" class="black-cta-button">
+                    Go back to Google bro
+                </a>
+            </div>
+        </section>
     </main>
+    <script src="js/animate.js"></script>
 </body>
 </html>
