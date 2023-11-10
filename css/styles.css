@@ -140,6 +140,7 @@ header nav {
     width: 19.375rem;
     border-bottom: 0.0625rem solid var(--black);
     padding: 0.88rem;
+    background-color: var(--white);
     color: var(--black-opacity-80);
     font-size: 1.25rem;
     font-weight: 400;
@@ -276,10 +277,12 @@ header nav {
 .book-time__schedule .book-time-btn {
     width: 6.3875rem;
     height: 2.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
     border: 1px solid var(--black-opacity-80);
     background: rgba(217, 217, 217, 0.00);
-    padding: 0.38rem 1.5rem;
     color: var(--black-opacity-80);
     font-size: 1rem;
     font-weight: 400;
@@ -328,6 +331,7 @@ header nav {
     border-bottom: 0.0625rem solid var(--black);
     border-radius: 0;
     flex-shrink: 0;
+    background-color: var(--white);
     color: var(--black-opacity-80);
     font-size: 1.25rem;
     font-weight: 400;
